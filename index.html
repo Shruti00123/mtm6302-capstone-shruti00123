@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="banner">
+        <!-- Navigation link -->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+        <!-- Logo image -->
+        <img src="images/logo.png" alt="Logo" class="banner-logo">
+        <!-- Title of the quiz -->
+        <h1 class="quiz-title">Quiz</h1>
+        <!-- Banner text -->
+        <div class="banner-text">Let's get started! Test your knowledge</div>
+    </header>
+    <!-- section for difficulty selection -->
+    <section class="difficulty-selection">
+        <h2>Choose Your Difficulty Level</h2>
+        <div class="button-container">
+            <button class="difficulty-button" id="easy">Easy</button>
+        </div>
+        <div class="button-container">
+            <button class="difficulty-button" id="medium">Medium</button>
+        </div>
+        <div class="button-container">
+            <button class="difficulty-button" id="hard">Hard</button>
+        </div>
+
+    </section>
+    <!-- Container for displaying questions -->
+    <div id="question" class="question-container"></div>
+
+
+    <!--footer-->
+    <footer class="site-footer">
+        <div class="social-links">
+            <a href="mailto:your_email@example.com" class="email-link">Email</a>
+            <a href="https://www.instagram.com/" class="instagram-link" target="_blank">Instagram</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

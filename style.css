@@ -1,0 +1,189 @@
+html{
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #F9F5E9;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url('images/Image\ 1.jpg');
+    background-size: cover;
+    background-position: center; 
+    height: 400px; 
+    width: 100%;
+}
+
+
+nav {
+        position: absolute;
+        top: 0; 
+        right: 0; 
+        margin: 10px; 
+
+    }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #F9F5E9;
+    
+}
+
+.quiz-title {
+    color:#F9F5E9;  
+    font-family: stencil;
+    font-size: 60px;
+}
+
+.banner-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+   
+}
+.banner-logo {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+    max-height: 50px; 
+    width: auto; 
+}
+
+
+
+.difficulty-selection h2 {
+    font-size: 20px;
+    font-family: stencil;
+    color: black;
+    text-align: center;
+   
+}
+
+.difficulty-selection {
+    text-align: center;
+}
+
+.button-container {
+    margin: 10px 0; 
+}
+
+.difficulty-button {
+    font-size: 30px;
+    font-family: stencil;
+    padding: 10px 20px; 
+    color: black;
+    border: none;
+    cursor: pointer;
+    background-color: blanchedalmond; 
+    outline: none; 
+}
+
+.difficulty-button:hover {
+    background-color:#C3FAB9;
+}
+.site-footer {
+    margin-top: auto; 
+    background-color: #000;
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+    font-size: 20px;
+}
+
+.social-links a {
+    color: #fff; 
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline; 
+}
+
+/* JS styles*/
+#question {
+    text-align: center; 
+    color: rgb(70, 69, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    width: 100%;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+     
+}
+
+
+#question label {
+    margin: 20px; 
+    display: block; 
+    font-size: 20px;
+}
+
+#question label:hover {
+   background-color: #C3FAB9;
+}
+
+#question h3 {
+    font-size: 25px; 
+    color: black; 
+    margin-bottom: 10px; 
+    font-family: stencil;
+}
+#feedback{
+    font-family: stencil;
+    font-size: 40px;
+}
+#next-question {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
